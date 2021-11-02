@@ -173,9 +173,9 @@ public class BlackHoleUnitBlock extends CustomOrientedBlock<BlackHoleUnitTile> {
     }
 
     @Override
-    public void registerItem(@NotNull IForgeRegistry<Item> registry) {
+    /* public void registerItem(@NotNull IForgeRegistry<Item> registry) {
         registry.register(new BlockStorageItem(this).setRegistryName(this.getRegistryName()));
-    }
+    }*/
 
     public class BlockStorageItem extends ItemBlock {
 
